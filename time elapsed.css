@@ -1,0 +1,26 @@
+
+.chida a{
+    text-decoration: none;
+    font-size: 30px;
+}
+.chida{
+    position: relative;
+    font-size: 12px;
+    padding: 0.5em 1em;
+    margin: 0.25em;
+    color: #000;
+    border-radius: 1em;
+    outline: none;
+    border: none;
+    text-decoration: none;  
+  }
+body{
+    background-color: aqua;
+}
+img{
+    position: relative;
+    height: 450px;
+    margin-left: 90px;
+    margin-top: 90px;
+}
+  

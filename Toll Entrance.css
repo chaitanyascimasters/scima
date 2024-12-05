@@ -1,0 +1,47 @@
+body{
+    margin: 0%;
+    background-color: #145de5;
+  
+}
+img{
+    position: relative;
+    height: 450px;
+    margin-left: 90px;
+    margin-top: 90px;
+}
+.bunty a{
+    text-decoration: none;
+    font-size: 30px;
+}
+.bunty{
+    position: relative;
+    font-size: 12px;
+    padding: 0.5em 1em;
+    margin: 0.25em;
+    color: #000;
+    border-radius: 1em;
+    outline: none;
+    border: none;
+    text-decoration: none;  
+  }
+  &::before{
+    content: '' ;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url(../Tollbackground.jpg);
+    background-size: cover;
+    background-position: top center;
+    opacity: 0.35;
+    }
+
+  h1{
+    position: relative;
+    margin-left: 20px;
+    font-size:50px ;
+    text-align: center;
+    color: #ffffff;
+    font-family: Pacifico;
+  }

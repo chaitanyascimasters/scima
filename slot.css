@@ -1,0 +1,53 @@
+
+body{
+    margin: 0px;
+    background-color: #002976;
+}
+&::before{
+content: '' ;
+position: absolute;
+top: 0px;
+right: 0px;
+bottom: 0px;
+left: 0px;
+background-image: url(../slotbackground.jpg);
+background-size: cover;
+background-position: top center;
+opacity: 0.35;
+}
+img{
+    position: relative;
+    height: 450px;
+    margin-left: 90px;
+    margin-top: 90px;
+
+}
+.chida a{
+    text-decoration: none;
+    font-size: 30px;
+}
+.chida{
+    position: relative;
+    font-size: 12px;
+    padding: 0.5em 1em;
+    margin: 0.25em;
+    color: #000;
+    border-radius: 1em;
+    outline: none;
+    border: none;
+    text-decoration: none;  
+  }
+  h1{
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    font-family: Pacifico;
+  }
+  h2{
+    position: relative;
+    color: #ffffff;
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: Pacifico;
+  }

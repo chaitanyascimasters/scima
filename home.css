@@ -1,0 +1,54 @@
+
+body{
+    position: relative;
+    margin: 0px;
+    background-color: #7094d6;
+   
+}
+img{
+    position: relative;
+    height: 450px;
+    margin-left: 90px;
+    margin-top: 90px;
+}
+.aarav a{
+    text-decoration: none;
+    font-size: 30px;
+}
+.aarav{
+    position: relative;
+    font-size: 12px;
+    padding: 0.5em 1em;
+    margin: 0.25em;
+    color: #000;
+    border-radius: 1em;
+    outline: none;
+    border: none;
+    text-decoration: none;  
+  }
+  &::before{
+    content: '' ;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url(../ultrasonicbackground.png);
+    background-size: cover;
+    background-position: top center;
+    opacity: 0.50;
+    }
+    h1{
+        position: relative;
+        font-size:50px ;
+        text-align: center;
+        color: #ffffff;
+        font-family: Pacifico;
+      }
+      h2{
+        position: relative;
+        margin-left: 20px;
+        font-size:25px ;
+        color: #ffffff;
+        font-family: Pacifico;
+      }
